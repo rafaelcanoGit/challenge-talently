@@ -1,10 +1,10 @@
 <?php
 namespace App;
 
-use App\ProductoNormal;
+use App\ProductoVillaPeruana;
 use App\IProductoVillaPeruana;
 
-class PiscoPeruano extends ProductoNormal implements IProductoVillaPeruana
+class PiscoPeruano extends ProductoVillaPeruana implements IProductoVillaPeruana
 {
     public function tick()
     {

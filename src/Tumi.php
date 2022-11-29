@@ -1,10 +1,10 @@
 <?php
 namespace App;
 
-use App\ProductoNormal;
+use App\ProductoVillaPeruana;
 use App\IProductoVillaPeruana;
 
-class Tumi extends ProductoNormal implements IProductoVillaPeruana
+class Tumi extends ProductoVillaPeruana implements IProductoVillaPeruana
 {
     public function verificarReglasGenerales()
     {

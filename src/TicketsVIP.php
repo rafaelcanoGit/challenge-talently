@@ -1,10 +1,10 @@
 <?php
 namespace App;
 
-use App\ProductoNormal;
+use App\ProductoVillaPeruana;
 use App\IProductoVillaPeruana;
 
-class TicketsVIP extends ProductoNormal implements IProductoVillaPeruana
+class TicketsVIP extends ProductoVillaPeruana implements IProductoVillaPeruana
 {
     public function aumentarQuality()
     {

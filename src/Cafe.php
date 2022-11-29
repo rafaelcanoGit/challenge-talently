@@ -1,10 +1,10 @@
 <?php
 namespace App;
 
-use App\ProductoNormal;
+use App\ProductoVillaPeruana;
 use App\IProductoVillaPeruana;
 
-class Cafe extends ProductoNormal implements IProductoVillaPeruana
+class Cafe extends ProductoVillaPeruana implements IProductoVillaPeruana
 {
     public function disminuirQuality(){
         if($this->sellIn <= 0) $this->quality = $this->quality - 4;
